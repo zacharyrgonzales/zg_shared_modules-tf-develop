@@ -1,2 +1,2 @@
-modules/gke_bootstrap/bootstrap.tf
-.vscode/*
+modules/foundation
+.vscode/
