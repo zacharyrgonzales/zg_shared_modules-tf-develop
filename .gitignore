@@ -1,2 +1,2 @@
-.vscode/settings.json
-.vscode/targets.log
+modules/gke_bootstrap/bootstrap.tf
+.vscode/*
