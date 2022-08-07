@@ -3,4 +3,5 @@
 **/.terraform.lock.hcl
 **/provider.tf
 **/variables.tf
+***/terraform.tfstate
 
