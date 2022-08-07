@@ -1,2 +1,4 @@
-modules/foundation
 .vscode/
+**/.terraform
+**/.terraform.lock.hcl
+**/variables.tf
