@@ -3,5 +3,6 @@
 **/.terraform.lock.hcl
 **/provider.tf
 **/variables.tf
-**/terraform.tfstate
-
+***/terraform.tfstate
+***/terraform.tfstate.backup
+modules/civo_cluster/terraform.tfstate
