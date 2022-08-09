@@ -1,4 +1,4 @@
-# Query small instance size
+# Query medium instance size
 data "civo_size" "medium" {
   filter {
     key    = "name"
@@ -37,7 +37,7 @@ resource "civo_firewall_rule" "ssh" {
   action      = "allow"
 }
 
-# Create a new control planeinstance
+# Create a new control plane instance
 resource "civo_instance" "control-plane" {
   hostname    = "control-plane"
   tags        = ["control-plane"]
